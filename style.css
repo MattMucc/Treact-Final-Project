@@ -41,6 +41,11 @@ main {
     margin-bottom: 96px;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 /* 
 
@@ -66,6 +71,44 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav__logo--img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav__logo--text {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 4px;
+    margin: 0 24px;
+    letter-spacing: 0.35px;
+}
+
+.nav__link--login {
+    margin-left: 48px;
+}
+
+.nav__link--primary {
+    background-color: #6415ff;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 50px;
+    margin-top: 2px;
+}
 
 .btn__menu {
     display: none;
