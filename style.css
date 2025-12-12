@@ -427,6 +427,57 @@ STEPS ↓
     align-items: center;
 }
 
+.steps__image--wrapper {
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+
+.steps--image {
+    z-index: 2;
+}
+
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+    width: 50%;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 1;
+    color: #cbd5e0;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 1;
+    color: #243e63;
+}
+
+.step__paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: #718096;
+    margin-top: 12px;
+}
+
 
 /* 
 
