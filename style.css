@@ -41,7 +41,7 @@ section {
     font-size: 16px;
     color: #6415ff;
     letter-spacing: 1.6;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -87,6 +87,17 @@ p {
 
 img {
     width: 100%;
+}
+
+.btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -373,6 +384,33 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.quality__description {
+    width: 50%;
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+#quality .section__title {
+    line-height: 1.25;
+}
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.quality__image--wrapper {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+}
+
+.quality__image {
+    z-index: 1;
 }
 
 
